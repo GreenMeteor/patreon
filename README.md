@@ -15,4 +15,5 @@ Adds a sidebar widget to the Dashboard.
 
 ### __Authors:__
 @GreenMeteor
+
 @Felli (Sarah Tsumayoi)

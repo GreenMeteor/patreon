@@ -13,10 +13,6 @@ class Assets extends AssetBundle
         'forceCopy' => true
     ];
 
-    public $js = [
-        'becomePatronButton.bundle.js'
-    ];
-
     public function init()
     {
         $this->sourcePath = dirname(__FILE__) . '/assets';

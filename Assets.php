@@ -1,6 +1,5 @@
 <?php
 
-
 namespace humhub\modules\patreon;
 
 use Yii;
@@ -11,6 +10,14 @@ class Assets extends AssetBundle
 
     public $publishOptions = [
         'forceCopy' => true
+    ];
+
+    public $css = [
+      'patreon.css'
+    ];
+
+    public $js = [
+        'goal.js'
     ];
 
     public function init()

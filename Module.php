@@ -21,7 +21,7 @@ class Module extends \humhub\components\Module
     {
         $url = $this->settings->get('serverUrl');
         if (empty($url)) {
-            return 'https://patreon.com';
+            return 'https://www.patreon.com';
         }
         return $url;
     }

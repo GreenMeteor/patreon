@@ -29,7 +29,7 @@ class ConfigureForm extends \yii\base\Model
     public function attributeLabels()
     {
         return [
-            'serverUrl' => Yii::t('PatreonModule.base', 'Patreon Widget URL:'),
+            'serverUrl' => Yii::t('PatreonModule.base', 'Patreon URL:'),
         ];
     }
 

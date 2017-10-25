@@ -6,6 +6,7 @@ use Yii;
 use yii\helpers\Url;
 use humhub\libs\Html;
 use humhub\components\Widget;
+use humhub\modules\patreon\widgets\ConfigureForm;
 
 /**
  *
@@ -18,9 +19,10 @@ class PatreonFrame extends Widget
     /**
      * @inheritdoc
      */
-   public function run()
+    public function run()
     {
-        $url = Yii::$app->getModule('patreon')->getServerUrl() . '/bePatron?u=';
+        $url = Yii::$app->getModule('patreon')->getServerUrl() . '';
         return $this->render('patreonframe', ['patreonUrl' => $url]);
     }
+
 }

@@ -17,3 +17,7 @@ Adds a sidebar widget to the Dashboard.
 @GreenMeteor
 
 @Felli (Sarah Tsumayoi)
+
+### Social Buttons
+
+[![](http://www.hazardfactory.org/wp-content/uploads/2016/07/Become-a-patron-button-300x100.png)](https://www.patreon.com/bePatron?u=8196443)

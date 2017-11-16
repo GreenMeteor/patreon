@@ -7,7 +7,8 @@ use humhub\models\Setting;
 \humhub\modules\patreon\Assets::register($this);
 ?>
 
-<div class="panel">
+<div class="panel panel-default panel-discordapp" id="panel-patreon">
+    <?= \humhub\widgets\PanelMenu::widget(['id' => 'panel-patreon']); ?>
   <div class="panel-heading">
     <?=Yii::t('PatreonModule.base', '<strong>Patreon</strong>'); ?>
   </div>

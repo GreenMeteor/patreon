@@ -3,7 +3,7 @@
     "name": "Patreon",
     "description": "Adds Patreon widget to HumHub`s website.",
     "keywords": ["patreon","widget"],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "humhub": {
     "minVersion": "1.0"
     },

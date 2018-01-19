@@ -1,4 +1,5 @@
 <?php
+
 namespace humhub\modules\patreon;
 
 use Yii;
@@ -15,7 +16,7 @@ class Events extends \yii\base\Object
             'label' => Yii::t('PatreonModule.base', 'Patreon Settings'),
             'url' => Url::toRoute('/patreon/admin/index'),
             'group' => 'settings',
-            'icon' => '<i class="fa fa-patreon"></i>',
+            'icon' => '<i class="fab fa-patreon"></i>',
             'isActive' => Yii::$app->controller->module && Yii::$app->controller->module->id == 'patreon' && Yii::$app->controller->id == 'admin',
             'sortOrder' => 650
         ]);

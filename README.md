@@ -2,6 +2,8 @@
 
 ## [HumHub](https://www.humhub.org/en) Patreon Module
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GreenMeteor/humhub-patreon-module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GreenMeteor/humhub-patreon-module/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/GreenMeteor/humhub-patreon-module/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GreenMeteor/humhub-patreon-module/build-status/master)
+
 Adds a sidebar widget to the Dashboard.
 
 ## Installing & Setup

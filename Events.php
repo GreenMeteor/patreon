@@ -27,8 +27,8 @@ public static function addPatreonFrame($event)
         if (Yii::$app->user->isGuest) {
             return;
         }
-        $event->sender->view->registerAssetBundle(Assets::className());
-        $event->sender->addWidget(PatreonFrame::className(), [], [
+        $event->sender->view->registerAssetBundle(Assets::class);
+        $event->sender->addWidget(PatreonFrame::class, [], [
             'sortOrder' => Setting::Get('timeout', 'patreon')
         ]);
     }

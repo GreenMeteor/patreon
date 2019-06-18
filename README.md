@@ -1,8 +1,7 @@
 [![](resources/patreonlogo.png)](https://patreon.com/)
 
 ## [HumHub](https://www.humhub.org/en) Patreon Module
-
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GreenMeteor/humhub-patreon-module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GreenMeteor/humhub-patreon-module/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/GreenMeteor/humhub-patreon-module/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GreenMeteor/humhub-patreon-module/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GreenMeteor/humhub-patreon-module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GreenMeteor/humhub-patreon-module/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/GreenMeteor/humhub-patreon-module/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GreenMeteor/humhub-patreon-module/build-status/master) [![CLA assistant](https://cla-assistant.io/readme/badge/GreenMeteor/humhub-patreon-module)](https://cla-assistant.io/GreenMeteor/humhub-patreon-module)
 
 Adds a sidebar widget to the Dashboard.
 

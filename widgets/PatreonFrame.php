@@ -21,7 +21,7 @@ class PatreonFrame extends Widget
      */
     public function run()
     {
-        $url = Yii::$app->getModule('patreon')->getServerUrl() . '';
+        $url = Yii::$app->getModule('patreon')->getServerUrl() . '/bePatron?u=';
         return $this->render('patreonframe', ['patreonUrl' => $url]);
     }
 

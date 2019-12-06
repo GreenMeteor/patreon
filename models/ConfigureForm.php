@@ -3,12 +3,13 @@
 namespace humhub\modules\patreon\models;
 
 use Yii;
+use yii\base\Model;
 
 /**
  * ConfigureForm defines the configurable fields.
 
  */
-class ConfigureForm extends \yii\base\Model
+class ConfigureForm extends Model
 {
 
     public $serverUrl;
@@ -19,7 +20,7 @@ class ConfigureForm extends \yii\base\Model
     public function rules()
     {
         return [
-            ['serverUrl', 'string'],
+            [['serverUrl', 'string'],'required'],
         ];
     }
 

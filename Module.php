@@ -13,9 +13,7 @@ class Module extends \humhub\components\Module
      */
     public function getConfigUrl()
     {
-        return Url::to([
-                    '/patreon/admin'
-        ]);
+        return Url::to(['/patreon/admin']);
     }
     public function getServerUrl()
     {

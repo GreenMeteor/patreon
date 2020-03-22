@@ -3,10 +3,7 @@
 namespace humhub\modules\patreon\widgets;
 
 use Yii;
-use yii\helpers\Url;
-use humhub\libs\Html;
 use humhub\components\Widget;
-use humhub\modules\patreon\widgets\ConfigureForm;
 
 /**
  *
